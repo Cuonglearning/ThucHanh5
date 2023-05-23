@@ -10,6 +10,7 @@ public class Menu {
         
         do{
             System.out.println("===========================");
+            System.out.println("0.Thoat chuong trinh.");
             System.out.println("1.Nhap phong hoc ly thuyet.");
             System.out.println("2.Nhap phong may tinh.");
             System.out.println("3.Nhap phong thi nghiem.");
@@ -21,6 +22,7 @@ public class Menu {
             switch (n) {
                 case 0:
                     System.out.println("Xin chao va hen gap lai");
+                    break;
                 case 1:
                     quanLyPhongHoc.themLyThuyet();
                     break;
